@@ -138,7 +138,7 @@ public class Board extends JPanel {
     }
 
 
-    public void find_empty_cells(int j) {
+    public static void find_empty_cells(int j) {
 
         int current_col = j % cols;
         int cell;
@@ -150,6 +150,7 @@ public class Board extends JPanel {
                     field[cell] -= COVER_FOR_CELL;
                     if (field[cell] == EMPTY_CELL)
                         find_empty_cells(cell);
+			
                 }
 
             cell = j - 1;
