@@ -59,7 +59,7 @@ public class Board extends JPanel {
     }
 
 
-    public void newGame() {
+    public static void newGame() {
 
       Random random = new Random();
         int current_col;
