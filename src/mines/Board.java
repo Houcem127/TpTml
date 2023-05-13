@@ -265,7 +265,7 @@ public class Board extends JPanel {
 
     class MinesAdapter extends MouseAdapter {
          @Override
-    public void mousePressed(MouseEvent e) {
+    public static void mousePressed(MouseEvent e) {
 
             int x = e.getX();
             int y = e.getY();
