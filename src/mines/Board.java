@@ -54,7 +54,7 @@ public class Board extends JPanel {
 
         setDoubleBuffered(true);
 
-        addMouseListener(new MinesAdapter());
+        addMouseListener(MinesAdapter());
         newGame();
     }
 
