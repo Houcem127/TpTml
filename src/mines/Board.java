@@ -54,6 +54,7 @@ public class Board extends JPanel {
     }
 
     public void newGame() {
+        String GenerateRandomValue(){
         Random r = new Random();
         int current_col;
 
@@ -122,7 +123,7 @@ public class Board extends JPanel {
                 }
             }
         }
-    }
+    }}
 
     public void find_empty_cells(int j) {
         int current_col = j % cols;
