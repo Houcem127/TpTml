@@ -61,14 +61,13 @@ public class Board extends JPanel {
 
     public static void newGame() {
 
-      Random random = new Random();
+      Random r = new Random();
         int current_col;
 
         int i = 0;
         int position = 0;
         int cell = 0;
-
-        random = new Random();
+       
         inGame = true;
         mines_left = mines;
 
