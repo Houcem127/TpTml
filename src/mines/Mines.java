@@ -10,10 +10,10 @@ import javax.swing.JLabel;
 public class Mines extends JFrame {
 	private static final long serialVersionUID = 4772165125287256837L;
 	
-	private final int WIDTH = 250;
-    private final int HEIGHT = 290;
+	public static final int WIDTH = 250;
+    public static final int HEIGHT = 290;
 
-    private JLabel statusbar;
+    private final JLabel statusbar;
     
     public Mines() {
 
